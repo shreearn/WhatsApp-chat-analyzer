@@ -26,7 +26,20 @@ with open(css_file) as f:
 
 st.sidebar.markdown("<span style='font-size: 26px; font-weight: bold;'><u>WhatsApp Chat Analyzer</u></span>", unsafe_allow_html=True)
 
+def download_file():
+    with open('test.txt', 'r', encoding='utf-8') as f:
+        contents = f.read()
+    b64 = base64.b64encode(contents.encode()).decode()
+    href = f'<a href="data:file/txt;base64,{b64}" download="test.txt">Download file</a>'
+    st.sidebar.markdown(href, unsafe_allow_html=True)
 
+# Add a expander
+expand_sidebar = st.sidebar.checkbox("Click to know why to download")
+if expand_sidebar:
+    st.sidebar.caption("Download the test file for analyzing Whatsapp chats (useful if you don't have any chats to upload) or upload your own chats for analysis")
+# Add download button to sidebar
+if st.sidebar.button('Download File'):
+    download_file()
 
 
 
