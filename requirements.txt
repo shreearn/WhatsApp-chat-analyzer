@@ -1,8 +1,11 @@
+altair==4.1.0
 emoji==1.7.0
 matplotlib==3.5.3
 nltk==3.8.1
 numpy==1.21.6
 pandas==1.1.5
+pip==23.1.2
+pillow==9.5.0
 plotly==5.13.0
 python_dateutil==2.8.2
 seaborn==0.12.2
