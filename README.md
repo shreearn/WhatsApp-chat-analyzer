@@ -1,7 +1,17 @@
 # Whatsapp-Chat-Analyzer
 https://whatsapp-chat-analyzer-asxkkmsg7tccppetijqnfq.streamlit.app/ 
 
-The WhatsApp Chat Analyzer is a Python script that analyzes chat logs exported from WhatsApp to generate various statistics about the chat. It provides insights into group conversations or personal chats, tracking individual participation levels, identifying the sentiments of messages, and more.
+Introduction:
+- Welcome to the WhatsApp Chat Analyzer, a tool that provides insights into your WhatsApp conversations!
+- Explore your WhatsApp chats like never before with the WhatsApp Chat Analyzer!
+- Dive deep into your chat history with the WhatsApp Chat Analyzer!
+
+Description:
+- Analyze your chat logs to discover interesting patterns and trends.
+- Gain insights into your messaging habits and those of your contacts.
+- Visualize your chat data to understand your communication patterns better.
+- Discover who the most active users are in your chat groups.
+- Identify the most frequently used words and emojis in your chats.
 
 Features
 - Message Statistics: Total messages, total words, media shared, and links shared.
